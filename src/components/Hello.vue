@@ -2,7 +2,7 @@
   <div class="hello">
     <input type="text" name="namae" size="40" maxlength="20" v-model="ref">
     <br>
-      <li><a v-bind:href="'https://atcoder.jp/users/' + ref" target="_blank" rel="noopener">{{search}}</a></li>
+      <li><a v-bind:href="'https://atcoder.jp/users/' + ref" target="_self" rel="noopener">{{search}}</a></li>
   </div>
 </template>
 

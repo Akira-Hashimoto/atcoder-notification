@@ -36,3 +36,12 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('a').click(function(){
+			location.href = $(this).attr('href');
+			return false;
+		});
+	});
+</script>
