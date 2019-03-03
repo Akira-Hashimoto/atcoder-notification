@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
+      <span>AtCoder Notification
+      </span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
+      <img src="./assets/atcoder_kun.png" width="248" height="248" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>
